@@ -1,16 +1,16 @@
 * {
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
+    background-color: #2C3333;
   }
   
   .array-container {
     align-items: top;
     display: flex;
-    margin-top: 0px;
   }
   
   .array-bar {
-    background-color: black;
+    background-color: #499b9e;
     margin: 0.15%;
   }
   
@@ -30,11 +30,10 @@
   
   .app-button {
     border-radius: 0.4em;
-    border-width: 0.05em;
     color: white;
     padding: 0.5em;
     margin: 0 0.5em;
-    background-color: transparent;
+    background-color: #247881;
   }
   
   .app-button:focus {
@@ -51,6 +50,7 @@
     flex-direction: column;
     min-height: 100vh;
   }
+
   
   @media (min-width: 700px) {
     .app-footer {
